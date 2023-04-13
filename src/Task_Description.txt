@@ -1,0 +1,34 @@
+Task in English:
+You are working in a IT company. You hava many different applications running on different servers.
+This server are badly configured.
+You get a great offer from a server company for servers with specific parameters.
+
+Question: 
+1. How many server do we need to order to run all our applications?
+2. Which applications runs on which server?
+
+Hint: Use first fit algorithm.
+
+What we dislike in your code:
+- Use more pure Function
+- composition over inheritance (inheritance could be a security problem)
+- type definition is very important
+
+-----------------------------
+Aufgabe in deutsch:
+Du arbeitest in einem IT-Unternehmen. Ihr habt viele Applicationen auf verschiedenen Servern laufen.
+Die Server sind schlecht konfiguriert. 
+Ihr kriegt ein Angebot vom Serverhersteller, welcher euch einen Server mit bestimmten Parametern zu einem
+guten Preis anbieten kann. 
+
+Fragen
+1. Wie viele Server brauchen wir, um alle (n) Applicationen auf den Server laufen zu lassen?
+2. Welche Application läuft auf welchen Server?
+
+
+Was hat gefehlt:
+1. Pure Function
+2. Composition over inheritance
+3. Typesierung
+
+------------------------------

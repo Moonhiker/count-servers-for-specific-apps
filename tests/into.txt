@@ -1,0 +1,5 @@
+run unit test:
+.\vendor\bin\phpunit
+
+build autoload
+composer dump-autoload -o
