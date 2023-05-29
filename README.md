@@ -7,3 +7,8 @@ You get a great offer from a server company for servers with specific parameters
 Question: 
 1. How many server do we need to order to run all our applications?
 2. Which application runs on which server?
+
+used software:
+- Composer
+- PHPUnit
+- Xdebug
