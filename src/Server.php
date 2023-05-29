@@ -11,9 +11,9 @@ class Server{
     private array $AppsInfoArray = [];
 
 
-    public function __construct(array $ServerinfoArray, array $App_info)
+    public function __construct(array $Server_info, array $App_info)
     {   
-        $this->ServerInformation = new Information($ServerinfoArray);
+        $this->ServerInformation = new Information($Server_info);
 
         if($this->validParameter($this->ServerInformation))
         {
@@ -33,7 +33,6 @@ class Server{
         {
             return false;
         }
-        
     }
 
     public function createApplications(array $App_info) : void
@@ -87,7 +86,6 @@ class Server{
 
     public function getUsedServerCount() : int
     {
-       
         return count($this->ServerInfoArray);
     }
 
@@ -141,7 +139,7 @@ class Server{
 }
 
 // JUST FOR TEST
-// $ServerinfoArray = ["CPU_in_GHz" => 8, "Band_in_Gbit" => 200, "Ram_in_GB" => 8, "Name" => "DELL"];
+// $Server_info = ["CPU_in_GHz" => 8, "Band_in_Gbit" => 200, "Ram_in_GB" => 8, "Name" => "DELL"];
 
 
 // $App_info = [
@@ -151,7 +149,7 @@ class Server{
 //     ["CPU_in_GHz" => 2, "Band_in_Gbit" => 50, "Ram_in_GB" => 2.5, "Name" => "App4"],
 //     ["CPU_in_GHz" => 2, "Band_in_Gbit" => 70, "Ram_in_GB" => 1.5, "Name" => "App5"]];
     
-// $Server = new Server($ServerinfoArray, $App_info);
+// $Server = new Server($Server_info, $App_info);
 // $Server->firstFitAlgorithm();
 
 // $Apps = $Server->getFilledApplications();
