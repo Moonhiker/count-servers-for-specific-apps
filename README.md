@@ -10,6 +10,7 @@ Question:
 2. Which application runs on which server?
 
 Used software:
+- VS Code
 - Composer
 - PHPUnit
 - Xdebug
